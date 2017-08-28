@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "naam": "Hal 3",
+  "x": 670,
+  "y": 30,
+  "width": "333px",
+  "height": "300px",
+  "apparaten": [
+    {
+      "id": 31,
+      "categorie": "lamp",
+      "naam": "Grote lamp",
+      "omschrijving": "Grote lamp die de prepress verlicht",
+      "laatstUitgevoerdeActie": {
+        "datum": "15/08/2017",
+        "type": "nazicht",
+        "omschrijving": "Lamp nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "21/12/2017",
+        "type": "vervanging",
+        "omschrijving": "Lamp moet binnenkort vervangen worden"
+      },
+      "x": 50,
+      "y": 150
+    },
+    {
+      "id": 32,
+      "categorie": "machine",
+      "naam": "Prepress",
+      "omschrijving": "Dit is de prepress",
+      "laatstUitgevoerdeActie": {
+        "datum": "15/08/2017",
+        "type": "nazicht",
+        "omschrijving": "Prepress nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "20/08/2017",
+        "type": "vervanging",
+        "omschrijving": "Prepress is dringend aan vervanging toe"
+      },
+      "x": 100,
+      "y": 150
+    },
+    {
+      "id": 33,
+      "categorie": "band",
+      "naam": "Productieband voor de prepress",
+      "omschrijving": "Dit is de productieband voor de prepress",
+      "laatstUitgevoerdeActie": {
+        "datum": "19/08/2017",
+        "type": "nazicht",
+        "omschrijving": "Band nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "19/12/2018",
+        "type": "nazicht",
+        "omschrijving": "Enkele onderdelen lijken aan vervanging toe, kijk deze extra na"
+      },
+      "x": 200,
+      "y": 200
+    }
+  ]
+}

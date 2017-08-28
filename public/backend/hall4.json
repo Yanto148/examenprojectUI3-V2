@@ -1,0 +1,82 @@
+{
+  "id": 4,
+  "naam": "Hal 4",
+  "x": 0,
+  "y": 335,
+  "width": "500px",
+  "height": "300px",
+  "apparaten": [
+    {
+      "id": 41,
+      "categorie": "lamp",
+      "naam": "Grote lamp",
+      "omschrijving": "Grote lamp die de digitale drukpers verlicht",
+      "laatstUitgevoerdeActie": {
+        "datum": "19/05/2017",
+        "type": "vervanging",
+        "omschrijving": "Lamp vervangen"
+      },
+      "eerstVolgendeActie": {
+        "datum": "19/05/2018",
+        "type": "nazicht",
+        "omschrijving": "Lamp nakijken"
+      },
+      "x": 250,
+      "y": 5
+    },
+    {
+      "id": 42,
+      "categorie": "lamp",
+      "naam": "Bureau lamp",
+      "omschrijving": "Bureau lamp aan de bureau",
+      "laatstUitgevoerdeActie": {
+        "datum": "04/07/2016",
+        "type": "nazicht",
+        "omschrijving": "Lamp nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "21/08/2017",
+        "type": "vervanging",
+        "omschrijving": "Bureau lamp is aan vervanging toe"
+      },
+      "x": 150,
+      "y": 150
+    },
+    {
+      "id": 43,
+      "categorie": "machine",
+      "naam": "Digitale drukpers",
+      "omschrijving": "Dit is de allernieuwste digitale drukpers",
+      "laatstUitgevoerdeActie": {
+        "datum": "1/06/2017",
+        "type": "nazicht",
+        "omschrijving": "Digitale drukpers nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "22/08/2018",
+        "type": "nazicht",
+        "omschrijving": "Digitale drukpers moet opnieuw nagekeken worden"
+      },
+      "x": 20,
+      "y": 20
+    },
+    {
+      "id": 44,
+      "categorie": "band",
+      "naam": "Productieband van de digitale drukpers",
+      "omschrijving": "Productieband die de digitale drukpers ondersteunt",
+      "laatstUitgevoerdeActie": {
+        "datum": "9/08/2017",
+        "type": "vervanging",
+        "omschrijving": "Bepaalde onderdelen vervangen"
+      },
+      "eerstVolgendeActie": {
+        "datum": "19/10/2018",
+        "type": "nazicht",
+        "omschrijving": "Prodcutieband moet nagekeken worden"
+      },
+      "x": 250,
+      "y": 250
+    }
+  ]
+}

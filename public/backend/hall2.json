@@ -1,0 +1,46 @@
+{
+  "id": 2,
+  "naam": "Hal 2",
+  "x": 335,
+  "y": 30,
+  "width": "330px",
+  "height": "300px",
+  "apparaten": [
+    {
+      "id": 21,
+      "categorie": "machine",
+      "naam": "3D-Printer",
+      "omschrijving": "Een van de modernste 3D-printers die er bestaat",
+      "laatstUitgevoerdeActie": {
+        "datum": "1/08/2017",
+        "type": "Vervanging",
+        "omschrijving": "Stukken van de 3D-printer vervangen zodat hij nog beter kan printen"
+      },
+      "eerstVolgendeActie": {
+        "datum": "15/09/2017",
+        "type": "nazicht",
+        "omschrijving": "Nakijken of de vervangen onderdelen goed werken"
+      },
+      "x": 5,
+      "y": 5
+    },
+    {
+      "id": 22,
+      "categorie": "band",
+      "naam": "3D-printer Productieband",
+      "omschrijving": "Dit is de productieband voor de 3D-printer",
+      "laatstUitgevoerdeActie": {
+        "datum": "1/07/2017",
+        "type": "nazicht",
+        "omschrijving": "Productieband nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "20/08/2017",
+        "type": "nazicht",
+        "omschrijving": "Enkele onderdelen lijken aan vervanging toe, deze onderdelen extra nakijken"
+      },
+      "x": 300,
+      "y": 270
+    }
+  ]
+}

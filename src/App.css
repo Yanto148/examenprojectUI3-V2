@@ -1,0 +1,170 @@
+/**
+    Aangezien bootstrap aanwezig is is er niet zo veel eigen css en is die in één file voor heel de applicatie geplaatst.
+    LET OP: de statische CSS staat hier, dynamische css voor bv. de breedte en hoogte van elke hal staat in de desbetreffende Javascript file.
+ */
+
+/**
+    Algemene css
+ */
+
+nav
+{
+    background-color: #E1E1E1;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.button
+{
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+/* Wrapper rond buttons om ze te centreren */
+.buttonWrapper
+{
+    text-align: center;
+}
+
+/* Voegt marge toe boven en onderaan de pagina */
+.content
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/**
+    Apparaat formulier css
+ */
+
+/* Voor de iconen van de apparaten in het apparaat formulier */
+h2 img
+{
+    margin-right: 20px;
+}
+
+/* Voor de subtitels in het apparaat formulier */
+.formTitle
+{
+    margin: 20px auto;
+}
+
+.invalid
+{
+    color: red;
+}
+
+.formButton
+{
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+
+/**
+    Actions view css
+ */
+
+/* Achtergrondkleur van elke vervanging in de actions view */
+.vervanging
+{
+    background-color: #F5C6CB;
+}
+
+/* Achtergrondkleur van elk nazicht in de actions view */
+.nazicht
+{
+    background-color: #FFEEBA;
+}
+
+.sortButton
+{
+    background-color: #212529;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/**
+    Listview css
+ */
+
+.hallName
+{
+    font-weight: normal;
+}
+
+.hallsListItem
+{
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+
+/**
+    Blueprint css
+ */
+
+.hallBlueprintContainer
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.hallsListView
+{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.hall
+{
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+}
+
+
+/**
+    Detail pagina van elke hal met zijn apparaten
+ */
+
+.hallDetail
+{
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/**
+    Bootstrap css die de bootstrap klassen overschrijft
+ */
+#button.focus, #button:focus
+{
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+#navigation
+{
+    justify-content: flex-start;
+}
+
+.readonly
+{
+    background-color: #E9ECEF !important;   /* Helaas is de important selector nodig om bootstrap te overschrijven */
+}

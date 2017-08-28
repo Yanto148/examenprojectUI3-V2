@@ -1,0 +1,46 @@
+{
+  "id": 5,
+  "naam": "Hal 5",
+  "x": 505,
+  "y": 335,
+  "width": "500px",
+  "height": "300px",
+  "apparaten": [
+    {
+      "id": 51,
+      "categorie": "lamp",
+      "naam": "Lamp magazijn",
+      "omschrijving": "Lamp die het magazijn verlicht",
+      "laatstUitgevoerdeActie": {
+        "datum": "19/08/2016",
+        "type": "nazicht",
+        "omschrijving": "Lamp nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "21/11/2017",
+        "type": "nazicht",
+        "omschrijving": "Lamp nog eens nakijken"
+      },
+      "x": 250,
+      "y": 150
+    },
+    {
+      "id": 52,
+      "categorie": "band",
+      "naam": "Verpakkingsband",
+      "omschrijving": "Band voor het verpakken",
+      "laatstUitgevoerdeActie": {
+        "datum": "15/08/2017",
+        "type": "nazicht",
+        "omschrijving": "Verpakkingsband nagekeken"
+      },
+      "eerstVolgendeActie": {
+        "datum": "01/04/2018",
+        "type": "nazicht",
+        "omschrijving": "Verpakkingsband opnieuw nakijken"
+      },
+      "x": 5,
+      "y": 150
+    }
+  ]
+}
